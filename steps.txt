@@ -1,0 +1,31 @@
+Employee Management System
+
+This project provides a command-line interface for managing employees and departments within a company.
+
+1. Prerequisites:
+   - Python 3.x installed on your system.
+
+2. Usage:
+   - Run the script `employee_oops.py` to start the Employee Management System.
+   - Upon startup, the system will load any existing company data from the file `company_data.json`, if available.
+   - Follow the on-screen menu prompts to perform various operations:
+     1. Add Department: Add a new department to the company.
+     2. Remove Department: Remove an existing department from the company.
+     3. Add Employee: Add a new employee to a department.
+     4. Remove Employee: Remove an existing employee from a department.
+     5. List Employees in Department: View a list of employees in a specific department.
+     6. Display Departments: View a list of all departments in the company.
+     7. Save Data: Save the current company data to the file `company_data.json`.
+     8. Exit: Exit the Employee Management System.
+
+3. Data Persistence:
+   - Company data is stored in a JSON format in the file `company_data.json`.
+   - When the system is started, it attempts to load existing data from this file.
+   - Data is automatically saved to this file when the user chooses the "Save Data" option or exits the system.
+
+4. Error Handling:
+   - The system includes error handling for various scenarios, such as adding/removing employees or departments that do not exist.
+
+5. Testing:
+   - Unit tests are provided in this application.
+

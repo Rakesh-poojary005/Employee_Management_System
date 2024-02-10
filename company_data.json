@@ -1,0 +1,18 @@
+{
+    "Digital": [
+        {
+            "name": "shaf",
+            "emp_id": "234",
+            "title": "SDE2",
+            "department": "Digital"
+        }
+    ],
+    "security": [
+        {
+            "name": "rakesh",
+            "emp_id": "123",
+            "title": "SDE4",
+            "department": "security"
+        }
+    ]
+}
